@@ -21,6 +21,8 @@
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
     "@material/button": "^0.38.1",
+    "@material/drawer": "^0.38.0",
+    "@material/list": "^0.38.1",
     "@material/toolbar": "^0.38.1",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",

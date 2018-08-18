@@ -1,5 +1,25 @@
 @import '~@material/toolbar/dist/mdc.toolbar.css';
+@import '~@material/drawer/dist/mdc.drawer.css';
+@import '~@material/list/dist/mdc.list.css';
 
+.app-root{
+    display: flex;
+}
 [main-content]{
     min-height: 100vh;
+    flex:1;
+}
+
+nav a.mdc-list-item--activated{
+    color: var(--app-primary-color);
+    background-color: #e3d9f3;
+    font-weight: 600 !important;
+}
+nav>a.mdc-list-item{
+    
+}
+
+aside.mdc-drawer{
+    -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
 }
