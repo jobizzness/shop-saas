@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MDCToolbar, MDCToolbarFoundation } from '@material/toolbar';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(){
+    
+    
+    
+  }
+
+  ngAfterViewInit(){
+    const toolbar = new MDCToolbar(document.querySelector('.mdc-toolbar'));
+    console.log(toolbar);
+  }
 }
