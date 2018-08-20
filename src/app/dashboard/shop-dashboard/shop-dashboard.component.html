@@ -36,7 +36,18 @@
 
       <!-- Some graphs that show activity -->
       <div class="mdc-layout-grid__cell">
-        <div class="card" style="height: 100%;background: white;"></div>
+        <div class="card" style="height: 50%;background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+          <header class="pad">
+            <h1 style="color: white">Traffic</h1>
+          </header>
+          <canvas #trafficChart></canvas>
+        </div>
+        <div class="card" style="height: 50%;background: white;">
+
+        </div>
       </div>
 
       <!-- Sales and engagement carts -->
@@ -56,7 +67,10 @@
       </div>
 
       <div class="mdc-layout-grid__cell">
-        <div class="card" style="height: 100%;background: #20d0e6;"></div>
+        <div class="card" style="height: 100%;background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"></div>
       </div>
 
       <!-- Something else -->
