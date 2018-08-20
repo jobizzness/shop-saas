@@ -7,3 +7,44 @@
     display: block;
     padding: 1em;
 }
+
+.card{
+    background-color: white;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.summary-item {
+    height: 135px;
+    border-radius: 16px;
+    background-color: #817598;
+}
+
+.summary-item--title {
+    font-size: 1.2rem;
+    color: #ffffffeb;
+    font-weight: 400;
+}
+
+.summary-item--value {
+    font-size: 2rem;
+    color: white;
+}
+
+h1{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.mb-1{
+margin-bottom: 1em;
+}
+
+.sales-engagement>*{
+    height: 185px;
+}
+
+canvas {
+    height: 129px !important;
+    width: 100% !important;
+    overflow: hidden;
+}

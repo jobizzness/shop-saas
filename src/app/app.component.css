@@ -22,4 +22,5 @@ nav>a.mdc-list-item{
 aside.mdc-drawer{
     -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
     box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    z-index: 1;
 }

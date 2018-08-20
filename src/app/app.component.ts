@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { MDCToolbar, MDCToolbarFoundation } from '@material/toolbar';
-import { MDCPersistentDrawer, MDCPersistentDrawerFoundation, util } from '@material/drawer';
+// import { MDCPersistentDrawer, MDCPersistentDrawerFoundation, util } from '@material/drawer';
 
 @Component({
-  selector: 'app-root',
+  selector: 'shop-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

@@ -7,13 +7,65 @@
 <main>
   <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
-      <div class="mdc-layout-grid__cell">A</div>
-      <div class="mdc-layout-grid__cell">B</div>
-      <div class="mdc-layout-grid__cell">C</div>
-      <div class="mdc-layout-grid__cell">D</div>
-      <div class="mdc-layout-grid__cell">E</div>
-      <div class="mdc-layout-grid__cell">F</div>
-      <div class="mdc-layout-grid__cell">G</div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">
+
+        <!-- Dashboard summary -->
+        <div class="card pad summary-item">
+          <h1 class="summary-item--title">Total Visits</h1>
+          <span class="summary-item--value">267</span>
+        </div>
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">
+        <div class="card pad summary-item">
+          <h1 class="summary-item--title">Total Orders</h1>
+          <span class="summary-item--value">47</span>
+        </div>
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">
+        <div class="card pad summary-item">
+          <h1 class="summary-item--title">Product Views</h1>
+          <span class="summary-item--value">3k</span>
+        </div>
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3">
+        <div class="card pad summary-item">
+          <h1 class="summary-item--title">New Customers</h1>
+          <span class="summary-item--value">26</span>
+        </div>
+      </div>
+
+      <!-- Some graphs that show activity -->
+      <div class="mdc-layout-grid__cell">
+        <div class="card" style="height: 100%;background: white;"></div>
+      </div>
+
+      <!-- Sales and engagement carts -->
+      <div class="mdc-layout-grid__cell sales-engagement">
+        <div class="card mb-1">
+          <header class="pad">
+            <h1>Total Sales</h1>
+          </header>
+          <canvas #salesChart></canvas>
+        </div>
+        <div class="card">
+          <header class="pad">
+            <h1>Engagement</h1>
+          </header>
+          <canvas #engagementChart></canvas>
+        </div>
+      </div>
+
+      <div class="mdc-layout-grid__cell">
+        <div class="card" style="height: 100%;background: #20d0e6;"></div>
+      </div>
+
+      <!-- Something else -->
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+        <div class="card" style="height: 400px;background: white;"></div>
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+        <div class="card" style="height: 100%;background: white;"></div>
+      </div>
     </div>
   </div>
 </main>
