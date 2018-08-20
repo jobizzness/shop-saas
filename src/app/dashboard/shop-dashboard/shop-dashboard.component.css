@@ -1,16 +1,14 @@
 @import '~@material/layout-grid/dist/mdc.layout-grid.css';
 
 :host{
-    background-color: #fafafa;
     min-height: 100vh;
-    width: 100%;
     display: block;
     padding: 1em;
 }
 
 .card{
     background-color: white;
-    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.08);
 }
 .summary-item {
     height: 135px;

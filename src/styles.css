@@ -5,7 +5,7 @@
 :root{
     --app-primary-color: #6e657f;
     --app-secondary-color: #39b9b1;
-    --app-background-color: #F6F6F6;
+    --app-background-color: #FAFAFB;
     --app-light-text-color: #737373;
     --app-section-even-color: #f7f7f7;
 
@@ -38,7 +38,29 @@ body {
 .pad{
     padding: 1rem;
 }
-
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mdc-text-field{
+    background-color: white !important;
+    border: 0!important;
+    box-shadow: 0 8px 16px 0 rgba(40,40,90,.09), 0 3px 6px 0 rgba(0,0,0,.065);
+}
+.mdc-text-field{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.row>*:not(:last-child){
+    margin-right: 16px;
+}
+img{
+    width: 100%
+}
 // Flex layout styles
     .fixed-bottom,
     .fixed-left,

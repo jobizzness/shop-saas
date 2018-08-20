@@ -2,14 +2,14 @@ import { Component, AfterViewInit, ViewChild } from '@angular/core';
 import {LineChart} from '../charts/line-chart'
 
 @Component({
-  selector: 'app-shop-dashboard',
+  selector: 'biness-shop-dashboard',
   templateUrl: './shop-dashboard.component.html',
   styleUrls: ['./shop-dashboard.component.css']
 })
 export class ShopDashboardComponent implements AfterViewInit {
 
   @ViewChild('salesChart') salesChart;
-    @ViewChild('engagementChart') engagementChart;
+  @ViewChild('engagementChart') engagementChart;
    
   constructor() { }
 

@@ -33,11 +33,30 @@
         <!-- Toolbar -->
         <header class="mdc-toolbar">
             <div class="mdc-toolbar__row">
-                <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+                <section class="mdc-toolbar__section ">
                     
                     <!-- <span class="mdc-toolbar__title">Title</span> -->
                     <span class="flex"></span>
-                    <a href="#" class="material-icons mdc-toolbar__menu-icon">menu</a>
+                    <div class="user-header-actions">
+                        <button class="mdc-icon-button material-icons">search</button>
+                        <button class="mdc-icon-button material-icons">notifications_none</button>
+                        <button class="mdc-icon-button material-icons">settings</button>
+                    </div>
+                    <div id="demo-menu" class="mdc-menu-anchor">
+                        <div class="avatar user-avatar" (click)="toggleMenu($event)">
+                            <img src="https://s3.amazonaws.com/assets.materialup.com/users/pictures/000/004/940/thumb/tr2snCNC_400x400.jpg?1507619572">
+                        </div>
+                        <div class="mdc-menu" tabindex="-1" #userMenu>
+                            <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
+                                <li class="mdc-list-item" role="menuitem" tabindex="0">
+                                    A Menu Item
+                                </li>
+                                <li class="mdc-list-item" role="menuitem" tabindex="-1" aria-disabled="true">
+                                    Disabled Menu Item
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
             </div>
         </header>
